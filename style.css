@@ -1,0 +1,65 @@
+body {
+    height: 500vh;
+}
+header {
+    position: sticky;
+    top: 0px;
+
+}
+
+.Podcast-Notification {
+    height: 70.5px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Podcast-Text {
+    font-size: 15px;
+    font-weight: bold;
+    font-family: sans-serif;
+    position: absolute;
+    left: 40%;
+}
+
+a {
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-decoration: underline;
+    position: absolute;
+    right: 36%;
+}
+
+.X {
+    font-size: 20px;
+    font-family: sans-serif;
+    color: whitesmoke;
+    position: absolute;
+    right: 20px;
+}
+nav {
+    font-size: 13px;
+    font-family: sans-serif;
+    font-weight: bold;
+    height: 70px;
+    display: flex;
+    flex-flow: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+#in {
+    position: absolute;
+    right: 12px;
+}
+#Subscribe-box {
+    color: white;
+    background-color: blue;
+    position: absolute;
+    right: 50px;
+    height: 50px;
+
+}
